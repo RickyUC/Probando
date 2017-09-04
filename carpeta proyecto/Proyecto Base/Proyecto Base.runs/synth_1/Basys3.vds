@@ -1,0 +1,434 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Sep  3 21:02:21 2017
+# Process ID: 19200
+# Current directory: C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.runs/synth_1
+# Command line: vivado.exe -log Basys3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basys3.tcl
+# Log file: C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.runs/synth_1/Basys3.vds
+# Journal file: C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Basys3.tcl -notrace
+Command: synth_design -top Basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t-cpg236'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5784 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 307.633 ; gain = 77.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Basys3' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:15]
+INFO: [Synth 8-3491] module 'Clock_Divider' declared at 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:7' bound to instance 'inst_Clock_Divider' of component 'Clock_Divider' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:13]
+INFO: [Synth 8-226] default block is never used [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (1#1) [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:13]
+INFO: [Synth 8-3491] module 'Display_Controller' declared at 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:7' bound to instance 'inst_Display_Controller' of component 'Display_Controller' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'Display_Controller' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:19]
+INFO: [Synth 8-226] default block is never used [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:52]
+INFO: [Synth 8-226] default block is never used [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'Display_Controller' (2#1) [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:19]
+INFO: [Synth 8-3491] module 'Debouncer' declared at 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:42' bound to instance 'inst_Debouncer' of component 'Debouncer' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:50]
+	Parameter DEBNC_CLOCKS bound to: 65536 - type: integer 
+	Parameter PORT_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (3#1) [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:50]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:7' bound to instance 'inst_RegA' of component 'Reg' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (4#1) [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:16]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:7' bound to instance 'inst_RegB' of component 'Reg' [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:134]
+WARNING: [Synth 8-3848] Net led in module/entity Basys3 does not have driver. [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'Basys3' (5#1) [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:15]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[15]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[14]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[13]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[12]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[11]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[10]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[9]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[8]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[7]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[6]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[5]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[4]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[3]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[2]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[1]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[0]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[15]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[14]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 346.957 ; gain = 116.445
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 346.957 ; gain = 116.445
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]
+Finished Parsing XDC File [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 647.664 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clock_divide_counter_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element clock_divide_counter_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[0] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[1] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[2] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[3] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[4] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element reg_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Clock_Divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+Module Display_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module Debouncer 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module Reg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element inst_Clock_Divider/clock_divide_counter_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element inst_Display_Controller/clock_divide_counter_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[0] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[1] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[2] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[3] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[4] was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_RegA/reg_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element inst_RegB/reg_reg was removed.  [C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[15]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[14]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[13]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[12]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[11]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[10]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[9]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[8]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[7]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[6]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[5]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[4]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[3]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[2]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[1]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port led[0]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[15]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[14]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[13]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[12]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[11]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[10]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[9]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[8]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[7]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[6]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[5]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[4]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[3]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[2]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[1]
+WARNING: [Synth 8-3331] design Basys3 has unconnected port sw[0]
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][4]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][5]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][6]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_out_reg_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegA/reg_reg[15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_RegB/reg_reg[15]) is unused and will be removed from module Basys3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:37 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    36|
+|3     |LUT1   |   109|
+|4     |LUT2   |    33|
+|5     |LUT3   |    19|
+|6     |LUT4   |    23|
+|7     |LUT5   |     6|
+|8     |LUT6   |     8|
+|9     |FDRE   |   131|
+|10    |IBUF   |     5|
+|11    |OBUF   |    12|
+|12    |OBUFT  |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+-------------------+------+
+|      |Instance                  |Module             |Cells |
++------+--------------------------+-------------------+------+
+|1     |top                       |                   |   399|
+|2     |  inst_Clock_Divider      |Clock_Divider      |    93|
+|3     |  inst_Debouncer          |Debouncer          |   196|
+|4     |  inst_Display_Controller |Display_Controller |    49|
+|5     |  inst_RegA               |Reg                |    19|
+|6     |  inst_RegB               |Reg_0              |     8|
++------+--------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 82 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 647.664 ; gain = 116.445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 647.664 ; gain = 417.152
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+31 Infos, 115 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:41 . Memory (MB): peak = 647.664 ; gain = 424.918
+INFO: [Common 17-1381] The checkpoint 'C:/Users/eripish_la_gallineta/Desktop/universidad/2017-2/arq/git_grupo/2017-2-G12/carpeta proyecto/Proyecto Base/Proyecto Base.runs/synth_1/Basys3.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 647.664 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Sep  3 21:03:07 2017...
