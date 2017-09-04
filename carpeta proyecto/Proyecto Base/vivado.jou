@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Sep  3 22:53:10 2017
+# Process ID: 4544
+# Current directory: C:/Probando/carpeta proyecto/Proyecto Base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15180 C:\Probando\carpeta proyecto\Proyecto Base\Proyecto Base.xpr
+# Log file: C:/Probando/carpeta proyecto/Proyecto Base/vivado.log
+# Journal file: C:/Probando/carpeta proyecto/Proyecto Base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Probando/carpeta proyecto/Proyecto Base/Proyecto Base.xpr}
+update_compile_order -fileset sources_1
