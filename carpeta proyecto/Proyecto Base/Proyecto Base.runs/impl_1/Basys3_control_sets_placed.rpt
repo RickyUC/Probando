@@ -1,0 +1,71 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Sun Sep  3 22:07:25 2017
+| Host         : LAPTOP-L4QOVUSE running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Basys3_control_sets_placed.rpt
+| Design       : Basys3
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    13 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               7 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             108 |           28 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+-----------------------------+---------------------------------------------------------+------------------+----------------+
+|            Clock Signal            |        Enable Signal        |                     Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++------------------------------------+-----------------------------+---------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                     |                             |                                                         |                6 |              7 |
+|  inst_Clock_Divider/internal_clock | inst_Debouncer/reg_reg[0]   |                                                         |                2 |              8 |
+|  inst_Clock_Divider/internal_clock | inst_Debouncer/reg_reg[0]_0 |                                                         |                2 |              8 |
+|  clk_IBUF_BUFG                     |                             | inst_Debouncer/sig_cntrs_ary[1][0]_i_1_n_0              |                4 |             16 |
+|  clk_IBUF_BUFG                     |                             | inst_Debouncer/sig_cntrs_ary[2][0]_i_1_n_0              |                4 |             16 |
+|  clk_IBUF_BUFG                     |                             | inst_Debouncer/sig_cntrs_ary[3][0]_i_1_n_0              |                4 |             16 |
+|  clk_IBUF_BUFG                     |                             | inst_Debouncer/sig_cntrs_ary[4][0]_i_1_n_0              |                4 |             16 |
+|  clk_IBUF_BUFG                     |                             | inst_Display_Controller/clock_divide_counter[0]_i_1_n_0 |                5 |             17 |
+|  clk_IBUF_BUFG                     |                             | inst_Clock_Divider/clear                                |                7 |             27 |
++------------------------------------+-----------------------------+---------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 7      |                     1 |
+| 8      |                     2 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+
