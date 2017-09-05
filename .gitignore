@@ -1,8 +1,14 @@
 
-/carpeta proyecto/Proyecto Base/.Xil
-/carpeta proyecto/Proyecto Base/Proyecto Base.cache
-/carpeta proyecto/Proyecto Base/Proyecto Base.hw
-/carpeta proyecto/Proyecto Base/Proyecto Base.ip_user_files
-/carpeta proyecto/Proyecto Base/Proyecto Base.sim
+#/Proyecto/Entrega 1/.Xil
+#/carpeta proyecto/Proyecto Base/Proyecto Base.cache
+#/carpeta proyecto/Proyecto Base/Proyecto Base.hw
+#/carpeta proyecto/Proyecto Base/Proyecto Base.ip_user_files
+#/carpeta proyecto/Proyecto Base/Proyecto Base.sim
+
+
 **.jou
 **.log
+**.cache
+**.hw
+**.ip_user_files
+**.sim
